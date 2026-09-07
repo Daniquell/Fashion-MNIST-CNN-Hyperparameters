@@ -1,4 +1,4 @@
-# INVESTIGATION OF THE IMPACT OF HYPERPARAMETERS ON THE ACCURACY OF NEURAL NETWORK PREDICTIONS USING THE Fashion-MNIST DATASET
+# Investigation of the Impact of Hyperparameters on Neural Network Classification Accuracy Using the Fashion-MNIST Dataset
 
 ## Abstract
 Machine learning and artificial intelligence (AI) are currently actively researching methods for optimi-
