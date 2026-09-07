@@ -9,17 +9,17 @@ connected layers, activation functions, batch size (batch_size), and the number 
 accuracy of machine learning models using a convolutional neural network architecture on the Fashion-MNIST
 dataset.
 
-## Ключевые результаты
-- Достигнута **максимальная точность 92%**.
-- Оптимальная архитектура:
-  - 1 слой Conv2D (32 фильтра, ядро 5×5) → MaxPooling2D (2,2)
-  - 1 слой Conv2D (64 фильтра, ядро 3×3) → MaxPooling2D (1,1)
-  - Полносвязный слой Dense(512) с активацией ReLU
-  - batch_size = 64, 10 эпох, оптимизатор Adam
-- Лучшая функция активации: **ReLU**
-- Увеличение числа слоёв до 3 **снизило точность до 89%** (вероятно, из-за переобучения)
+## Key Results
+- A maximum classification accuracy of **92%** was achieved.
+- The optimal architecture comprises:
+  - A first Conv2D layer (32 filters, 5×5 kernel) followed by a MaxPooling2D layer (2×2).
+  - A second Conv2D layer (64 filters, 3×3 kernel) followed by a MaxPooling2D layer (1×1).
+  - A fully connected Dense layer (512 units) with ReLU activation.
+  - Training was conducted over 10 epochs with a batch size of 64, utilizing the Adam optimizer.
+- **ReLU** was identified as the optimal activation function.
+- Increasing the network depth to three layers reduced the accuracy to 89%, presumably due to overfitting.
 
-## Технологии
+## Technologies
 - Python
 - TensorFlow / Keras
 - Jupyter Notebook
