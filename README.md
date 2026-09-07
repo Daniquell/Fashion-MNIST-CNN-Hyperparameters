@@ -12,10 +12,10 @@ dataset.
 ## Key Results
 - A maximum classification accuracy of **92%** was achieved.
 - The optimal architecture comprises:
-  - A first Conv2D layer (32 filters, 5×5 kernel) followed by a MaxPooling2D layer (2×2).
-  - A second Conv2D layer (64 filters, 3×3 kernel) followed by a MaxPooling2D layer (1×1).
-  - A fully connected Dense layer (512 units) with ReLU activation.
-  - Training was conducted over 10 epochs with a batch size of 64, utilizing the Adam optimizer.
+  - A first **Conv2D layer (32 filters, 5×5 kernel)** followed by a **MaxPooling2D layer (2×2)**.
+  - A second **Conv2D layer (64 filters, 3×3 kernel)** followed by a **MaxPooling2D layer (1×1)**.
+  - A **fully connected Dense layer (512 units)** with **ReLU activation**.
+  - Training was conducted over **10 epochs** with a **batch size of 64**, utilizing the **Adam optimizer**.
 - **ReLU** was identified as the optimal activation function.
 - Increasing the network depth to three layers reduced the accuracy to 89%, presumably due to overfitting.
 
