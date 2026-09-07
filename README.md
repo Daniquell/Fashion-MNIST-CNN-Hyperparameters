@@ -1,6 +1,7 @@
-# Fashion-mnist-cnn-research
-ИССЛЕДОВАНИЕ ВЛИЯНИЯ ГИПЕРПАРАМЕТРОВ НА ТОЧНОСТЬ НЕЙРОСЕТЕВОГО ПРЕДСКАЗАНИЯ С ИСПОЛЬЗОВАНИЕМ НАБОРА ДАННЫХ Fashion-MNIST
-Курсовая работа студента 3 курса БГУ Клименко Даниила по специальности «Компьютерная безопасность».
+# INVESTIGATION OF THE IMPACT OF HYPERPARAMETERS
+# ON THE ACCURACY OF NEURAL NETWORK PREDICTIONS
+# USING THE Fashion-MNIST DATASET
+
 
 ## Цель
 Анализ влияния гиперпараметров (количество слоёв Conv2D, размер ядер, pool_size, strides, функции активации, batch_size, количество эпох) на точность сверточной нейронной сети при классификации изображений одежды из датасета Fashion-MNIST.
