@@ -1,7 +1,13 @@
 # INVESTIGATION OF THE IMPACT OF HYPERPARAMETERS ON THE ACCURACY OF NEURAL NETWORK PREDICTIONS USING THE Fashion-MNIST DATASET
 
-## Цель
-Анализ влияния гиперпараметров (количество слоёв Conv2D, размер ядер, pool_size, strides, функции активации, batch_size, количество эпох) на точность сверточной нейронной сети при классификации изображений одежды из датасета Fashion-MNIST.
+## Abstract
+Machine learning and artificial intelligence (AI) are currently actively researching methods for optimi-
+zing and tuning model hyperparameters. One key area of research is analyzing the impact of varying hyperpara-
+meters, such as the number of two-dimensional convolution (Conv2D) layers and their parameters (number of fil-
+ters, kernel size), the size and stride of maximum pooling (MaxPooling2D) layers, the number of neurons in fully
+connected layers, activation functions, batch size (batch_size), and the number of training epochs, on the prediction
+accuracy of machine learning models using a convolutional neural network architecture on the Fashion-MNIST
+dataset.
 
 ## Ключевые результаты
 - Достигнута **максимальная точность 92%**.
